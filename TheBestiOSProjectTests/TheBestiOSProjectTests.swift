@@ -33,4 +33,115 @@ class TheBestiOSProjectTests: XCTestCase {
         }
     }
     
+    func testWebCallWithGetHttpMethod()
+    {
+        let url  = "https://jsonplaceholder.typicode.com"
+        let path  = "users"
+        
+        let expectation =
+            self.expectation(description: "Networkrequest")
+        
+        HTTPRequest().request(
+            withBaseURL: url, andPath: path
+            ).ofType(
+                method: HTTPMethod.delete
+            ).withSessionType(
+                sessionType: URLSessionType.shared
+                )
+            { (data:Data?, response:URLResponse? , error:Error?) in
+                
+                //test Nil response
+                XCTAssert(response != nil, "non \"Nil\" response Recieved")
+                
+                //unwrapped
+                //so this wont execute if the first test fails
+                //this should be a separate test
+                if let response = response as? HTTPURLResponse
+                {
+                    //test 200 response
+                    XCTAssert(response.statusCode == 200, "status != 200")
+                }
+                
+                
+                expectation.fulfill()
+                
+            }.make()
+        
+        self.wait(for: [expectation], timeout: TimeInterval.init(60.0))
+    }
+    
+    func testSampleWebCallWithDeleteHttpMethod()
+    {
+        let url  = "https://jsonplaceholder.typicode.com"
+        let path  = "users"
+        
+        let expectation =
+            self.expectation(description: "Networkrequest")
+        
+        HTTPRequest().request(
+            withBaseURL: url, andPath: path
+            ).ofType(
+                method: HTTPMethod.delete
+            ).withSessionType(
+                sessionType: URLSessionType.shared
+                )
+            { (data:Data?, response:URLResponse? , error:Error?) in
+                
+                //test Nil response
+                XCTAssert(response == nil, "\"Nil\" response Recieved")
+                
+                //unwrapped
+                //so this wont execute if the first test fails
+                //this should be a separate test
+                if let response = response as? HTTPURLResponse
+                {
+                    //test 200 response
+                    XCTAssert(response.statusCode == 200, "status != 200")
+                }
+                
+                
+                expectation.fulfill()
+                
+            }.make()
+        
+        self.wait(for: [expectation], timeout: TimeInterval.init(60.0))
+    }
+    
+    func testSampleWebCallWithBlankURL()
+    {
+        let url  = ""
+        let path  = ""
+        
+        let expectation =
+            self.expectation(description: "Networkrequest")
+        
+        HTTPRequest().request(
+            withBaseURL: url, andPath: path
+            ).ofType(
+                method: HTTPMethod.delete
+            ).withSessionType(
+                sessionType: URLSessionType.shared
+                )
+            { (data:Data?, response:URLResponse? , error:Error?) in
+                
+                //test Nil response
+                XCTAssert(response == nil, "\"Nil\" response Recieved")
+                
+                //unwrapped
+                //so this wont execute if the first test fails
+                //this should be a separate test
+                if let response = response as? HTTPURLResponse
+                {
+                    //test 200 response
+                    XCTAssert(response.statusCode == 200, "status != 200")
+                }
+                
+                
+                expectation.fulfill()
+                
+            }.make()
+        
+        self.wait(for: [expectation], timeout: TimeInterval.init(60.0))
+    }
+    
 }

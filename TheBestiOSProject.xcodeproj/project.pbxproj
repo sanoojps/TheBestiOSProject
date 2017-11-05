@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D313399B1FACC5CC00ED0AAA /* Addison.Wesley.Test-Driven.iOS.Development-www.gocit.vn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D313399A1FACC5CC00ED0AAA /* Addison.Wesley.Test-Driven.iOS.Development-www.gocit.vn.pdf */; };
+		D313399D1FACCC3B00ED0AAA /* NetworkOpsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D313399C1FACCC3B00ED0AAA /* NetworkOpsManager.swift */; };
+		D31339A21FACDBE800ED0AAA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D31339A11FACDBE800ED0AAA /* Localizable.strings */; };
+		D31339A41FAD10B900ED0AAA /* MiscellaneousUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31339A31FAD10B900ED0AAA /* MiscellaneousUtilities.swift */; };
+		D3DFF74E1FAE17D400911C75 /* DatabaseOpsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DFF74D1FAE17D400911C75 /* DatabaseOpsManager.swift */; };
 		D3F5A1491FAA4D48003BBF0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F5A1481FAA4D48003BBF0D /* AppDelegate.swift */; };
 		D3F5A14B1FAA4D48003BBF0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F5A14A1FAA4D48003BBF0D /* ViewController.swift */; };
 		D3F5A14E1FAA4D48003BBF0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F5A14C1FAA4D48003BBF0D /* Main.storyboard */; };
@@ -15,6 +20,7 @@
 		D3F5A1561FAA4D48003BBF0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F5A1541FAA4D48003BBF0D /* LaunchScreen.storyboard */; };
 		D3F5A1611FAA4D48003BBF0D /* TheBestiOSProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F5A1601FAA4D48003BBF0D /* TheBestiOSProjectTests.swift */; };
 		D3F5A16C1FAA4D48003BBF0D /* TheBestiOSProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F5A16B1FAA4D48003BBF0D /* TheBestiOSProjectUITests.swift */; };
+		D3F5A17A1FAA5C70003BBF0D /* ios-programming-the-big-nerd-ranch-christian-keur(www.ebook-dl.com).pdf in Resources */ = {isa = PBXBuildFile; fileRef = D3F5A1791FAA5C6F003BBF0D /* ios-programming-the-big-nerd-ranch-christian-keur(www.ebook-dl.com).pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D313399A1FACC5CC00ED0AAA /* Addison.Wesley.Test-Driven.iOS.Development-www.gocit.vn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Addison.Wesley.Test-Driven.iOS.Development-www.gocit.vn.pdf"; sourceTree = "<group>"; };
+		D313399C1FACCC3B00ED0AAA /* NetworkOpsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkOpsManager.swift; sourceTree = "<group>"; };
+		D31339A11FACDBE800ED0AAA /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D31339A31FAD10B900ED0AAA /* MiscellaneousUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscellaneousUtilities.swift; sourceTree = "<group>"; };
+		D3DFF74D1FAE17D400911C75 /* DatabaseOpsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseOpsManager.swift; sourceTree = "<group>"; };
 		D3F5A1451FAA4D47003BBF0D /* TheBestiOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBestiOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F5A1481FAA4D48003BBF0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3F5A14A1FAA4D48003BBF0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		D3F5A1671FAA4D48003BBF0D /* TheBestiOSProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheBestiOSProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F5A16B1FAA4D48003BBF0D /* TheBestiOSProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBestiOSProjectUITests.swift; sourceTree = "<group>"; };
 		D3F5A16D1FAA4D48003BBF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F5A1791FAA5C6F003BBF0D /* ios-programming-the-big-nerd-ranch-christian-keur(www.ebook-dl.com).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "ios-programming-the-big-nerd-ranch-christian-keur(www.ebook-dl.com).pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +88,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D31339A01FACDBC600ED0AAA /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				D31339A11FACDBE800ED0AAA /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		D3F5A13C1FAA4D47003BBF0D = {
 			isa = PBXGroup;
 			children = (
+				D313399A1FACC5CC00ED0AAA /* Addison.Wesley.Test-Driven.iOS.Development-www.gocit.vn.pdf */,
+				D3F5A1791FAA5C6F003BBF0D /* ios-programming-the-big-nerd-ranch-christian-keur(www.ebook-dl.com).pdf */,
 				D3F5A1471FAA4D47003BBF0D /* TheBestiOSProject */,
 				D3F5A15F1FAA4D48003BBF0D /* TheBestiOSProjectTests */,
 				D3F5A16A1FAA4D48003BBF0D /* TheBestiOSProjectUITests */,
@@ -99,6 +121,7 @@
 		D3F5A1471FAA4D47003BBF0D /* TheBestiOSProject */ = {
 			isa = PBXGroup;
 			children = (
+				D31339A01FACDBC600ED0AAA /* Localization */,
 				D3F5A1481FAA4D48003BBF0D /* AppDelegate.swift */,
 				D3F5A14A1FAA4D48003BBF0D /* ViewController.swift */,
 				D3F5A14C1FAA4D48003BBF0D /* Main.storyboard */,
@@ -106,6 +129,9 @@
 				D3F5A1541FAA4D48003BBF0D /* LaunchScreen.storyboard */,
 				D3F5A1571FAA4D48003BBF0D /* Info.plist */,
 				D3F5A14F1FAA4D48003BBF0D /* TheBestiOSProject.xcdatamodeld */,
+				D313399C1FACCC3B00ED0AAA /* NetworkOpsManager.swift */,
+				D3DFF74D1FAE17D400911C75 /* DatabaseOpsManager.swift */,
+				D31339A31FAD10B900ED0AAA /* MiscellaneousUtilities.swift */,
 			);
 			path = TheBestiOSProject;
 			sourceTree = "<group>";
@@ -236,7 +262,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3F5A1561FAA4D48003BBF0D /* LaunchScreen.storyboard in Resources */,
+				D31339A21FACDBE800ED0AAA /* Localizable.strings in Resources */,
 				D3F5A1531FAA4D48003BBF0D /* Assets.xcassets in Resources */,
+				D3F5A17A1FAA5C70003BBF0D /* ios-programming-the-big-nerd-ranch-christian-keur(www.ebook-dl.com).pdf in Resources */,
+				D313399B1FACC5CC00ED0AAA /* Addison.Wesley.Test-Driven.iOS.Development-www.gocit.vn.pdf in Resources */,
 				D3F5A14E1FAA4D48003BBF0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +292,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3F5A1511FAA4D48003BBF0D /* TheBestiOSProject.xcdatamodeld in Sources */,
+				D313399D1FACCC3B00ED0AAA /* NetworkOpsManager.swift in Sources */,
+				D31339A41FAD10B900ED0AAA /* MiscellaneousUtilities.swift in Sources */,
+				D3DFF74E1FAE17D400911C75 /* DatabaseOpsManager.swift in Sources */,
 				D3F5A14B1FAA4D48003BBF0D /* ViewController.swift in Sources */,
 				D3F5A1491FAA4D48003BBF0D /* AppDelegate.swift in Sources */,
 			);
@@ -323,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

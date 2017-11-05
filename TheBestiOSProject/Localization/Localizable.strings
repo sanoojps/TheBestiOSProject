@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  TheBestiOSProject
+
+  Created by sanooj on 11/3/17.
+  Copyright © 2017 DCore. All rights reserved.
+*/
+
+"NO_NAME_BUNDLE_ID" = "NO_NAME_BUNDLE_ID_%@";
