@@ -291,3 +291,4 @@ let result:NSTextCheckingResult! =
         range: range
     )
 
+NSLocalizedString("key",comment: "")
