@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Date Display Table View Controller-->
+        <scene sceneID="W3f-iY-Ag4">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Xj-8b-4WN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController storyboardIdentifier="dateDisplayTableViewControllerID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rwG-ie-7E6" customClass="DateDisplayTableViewController" customModule="StackOperations" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Zbu-0m-1z9">
+                        <rect key="frame" x="0.0" y="0.0" width="359" height="427"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="dateDisplayTableViewCellID" textLabel="vOx-PD-ec4" style="IBUITableViewCellStyleDefault" id="rEk-Bd-8kL" customClass="DateDisplayTableViewCell" customModule="StackOperations" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="359" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rEk-Bd-8kL" id="U2Z-ka-WLY">
+                                    <rect key="frame" x="0.0" y="0.0" width="359" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vOx-PD-ec4">
+                                            <rect key="frame" x="16" y="0.0" width="327" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="rwG-ie-7E6" id="Vm9-vC-sda"/>
+                            <outlet property="delegate" destination="rwG-ie-7E6" id="nX2-nS-Amm"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="-591" y="-112"/>
+        </scene>
+        <!--Date Display View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="dateDisplayViewControllerID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="DateDisplayViewController" customModule="StackOperations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="K4X-Cw-3XW">
+                                <rect key="frame" x="8" y="28" width="359" height="196"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="FwN-sf-1Og">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5a-Qk-oho">
+                                                <rect key="frame" x="0.0" y="0.0" width="81.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="DD/MM/YYYY" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Iuj-vo-2XB">
+                                                <rect key="frame" x="85.5" y="0.0" width="273.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="eih-Fo-IAH">
+                                        <rect key="frame" x="0.0" y="50" width="359" height="146"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="avd-VU-RSg">
+                                                <rect key="frame" x="0.0" y="0.0" width="359" height="68"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DuF-Jy-4hB">
+                                                        <rect key="frame" x="0.0" y="0.0" width="68" height="68"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.49803921569999998" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="68" id="HiI-bC-gz7"/>
+                                                            <constraint firstAttribute="height" constant="68" id="PY6-Ko-eeb"/>
+                                                        </constraints>
+                                                        <state key="normal" title="CLEAR">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="didClickClearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jio-ty-lNW"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hA-PX-2lR">
+                                                        <rect key="frame" x="291" y="0.0" width="68" height="68"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.49803921569999998" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="68" id="Cpu-QM-rh1"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="68" id="cdo-m5-R2t"/>
+                                                        </constraints>
+                                                        <state key="normal" title="SORT">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="didClickSortButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ij9-ud-UBW"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="1b3-89-NSf">
+                                                <rect key="frame" x="0.0" y="78" width="359" height="68"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDa-UM-hxm">
+                                                        <rect key="frame" x="0.0" y="0.0" width="68" height="68"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.49803921569999998" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="68" id="cPT-Vm-gnT"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="68" id="yYp-Fj-LuH"/>
+                                                        </constraints>
+                                                        <state key="normal" title="PUSH">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="didClickPushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1hb-Te-VFw"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2P-E2-I6N">
+                                                        <rect key="frame" x="291" y="0.0" width="68" height="68"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.49803921569999998" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="68" id="ZFI-u0-hXe"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="68" id="hnO-1p-Qz6"/>
+                                                        </constraints>
+                                                        <state key="normal" title="POP">
+                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="didClickPopButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8nE-FQ-e2P"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U4L-8h-w0h">
+                                <rect key="frame" x="8" y="232" width="359" height="427"/>
+                                <connections>
+                                    <segue destination="rwG-ie-7E6" kind="embed" id="8Ru-I8-NQx"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.29411764709999999" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="U4L-8h-w0h" firstAttribute="top" secondItem="K4X-Cw-3XW" secondAttribute="bottom" constant="8" id="1R2-T8-cqL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="U4L-8h-w0h" secondAttribute="bottom" constant="8" id="4Oc-gN-5G6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U4L-8h-w0h" secondAttribute="trailing" constant="8" id="Ash-R0-4Zp"/>
+                            <constraint firstItem="K4X-Cw-3XW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="IaX-nJ-05r"/>
+                            <constraint firstItem="K4X-Cw-3XW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="QHd-n3-xnm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="K4X-Cw-3XW" secondAttribute="trailing" constant="8" id="jTt-vy-C3H"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="K4X-Cw-3XW" secondAttribute="bottom" constant="8" id="lyR-1n-o6I"/>
+                            <constraint firstItem="U4L-8h-w0h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="qIH-uP-5Ly"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="dateLabel" destination="z5a-Qk-oho" id="odz-Ab-k5E"/>
+                        <outlet property="dateTextField" destination="Iuj-vo-2XB" id="wPz-CP-BYc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="535" y="-133"/>
+        </scene>
+    </scenes>
+</document>
