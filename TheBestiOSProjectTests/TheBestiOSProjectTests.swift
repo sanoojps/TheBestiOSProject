@@ -45,7 +45,7 @@ class TheBestiOSProjectTests: XCTestCase {
             withBaseURL: url, andPath: path
             ).ofType(
                 method: HTTPMethod.delete
-            ).withSessionType(
+            ).withSession(
                 sessionType: URLSessionType.shared
                 )
             { (data:Data?, response:URLResponse? , error:Error?) in
@@ -82,7 +82,7 @@ class TheBestiOSProjectTests: XCTestCase {
             withBaseURL: url, andPath: path
             ).ofType(
                 method: HTTPMethod.delete
-            ).withSessionType(
+            ).withSession(
                 sessionType: URLSessionType.shared
                 )
             { (data:Data?, response:URLResponse? , error:Error?) in
@@ -119,7 +119,7 @@ class TheBestiOSProjectTests: XCTestCase {
             withBaseURL: url, andPath: path
             ).ofType(
                 method: HTTPMethod.delete
-            ).withSessionType(
+            ).withSession(
                 sessionType: URLSessionType.shared
                 )
             { (data:Data?, response:URLResponse? , error:Error?) in

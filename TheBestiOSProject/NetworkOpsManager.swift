@@ -50,7 +50,7 @@ protocol URLRequestConvertible
     
     func ofType(method:HTTPMethod)-> Element
     
-    func withSessionType(
+    func withSession(
         sessionType:URLSessionType,
         completionHandler:
         @escaping (_ data:Data?, _ urlResponse:URLResponse?, _ error:Error?)->()
@@ -277,7 +277,7 @@ func isOnline(completionHandler:@escaping (Bool)->())
         withBaseURL: "http://www.example.com", andPath: ""
     ).ofType(
         method: HTTPMethod.head
-        ).withSessionType
+        ).withSession
         { (data:Data?, response:URLResponse? , error:Error?)in
             
             let isOnline:Bool =
@@ -322,7 +322,7 @@ extension HTTPRequest:URLRequestConvertible
     }
     
     @discardableResult
-    func withSessionType(
+    func withSession(
         sessionType:URLSessionType = .shared,
         completionHandler:@escaping (_ data:Data?, _ urlResponse:URLResponse?, _ error:Error?)->()
         ) -> HTTPRequest
