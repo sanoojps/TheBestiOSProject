@@ -11,6 +11,20 @@
 		D313399D1FACCC3B00ED0AAA /* NetworkOpsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D313399C1FACCC3B00ED0AAA /* NetworkOpsManager.swift */; };
 		D31339A21FACDBE800ED0AAA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D31339A11FACDBE800ED0AAA /* Localizable.strings */; };
 		D31339A41FAD10B900ED0AAA /* MiscellaneousUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31339A31FAD10B900ED0AAA /* MiscellaneousUtilities.swift */; };
+		D3A6D95F20D675A7005383E9 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6D95E20D675A7005383E9 /* Requests.swift */; };
+		D3A6D96120D68350005383E9 /* RequestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6D96020D68350005383E9 /* RequestsTests.swift */; };
+		D3A6D96C20D6957B005383E9 /* TBIBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6D96B20D6957B005383E9 /* TBIBaseViewController.swift */; };
+		D3A6D96F20D6AD07005383E9 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A6D96E20D6AD07005383E9 /* LoginScreen.storyboard */; };
+		D3A6D97120D6D1AB005383E9 /* TBILoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6D97020D6D1AB005383E9 /* TBILoginScreenViewController.swift */; };
+		D3A6D97420D6D1F3005383E9 /* TBILoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6D97320D6D1F3005383E9 /* TBILoginCredentials.swift */; };
+		D3A6D97620D6D4EE005383E9 /* TBILoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6D97520D6D4EE005383E9 /* TBILoginTableViewController.swift */; };
+		D3A6D97820D6DBA9005383E9 /* TBIBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6D97720D6DBA9005383E9 /* TBIBaseTableViewCell.swift */; };
+		D3A6D97A20D6DBD9005383E9 /* TBILoginFullViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6D97920D6DBD9005383E9 /* TBILoginFullViewTableViewCell.swift */; };
+		D3A6D97C20D6DCA1005383E9 /* TBILoginPlaceholderViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6D97B20D6DCA1005383E9 /* TBILoginPlaceholderViewTableViewCell.swift */; };
+		D3A6D98420E022EF005383E9 /* DocmentationCommentsHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6D98320E022EE005383E9 /* DocmentationCommentsHelp.swift */; };
+		D3A6D98620E055EA005383E9 /* TBILoginTableViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6D98520E055EA005383E9 /* TBILoginTableViewControllerDataSource.swift */; };
+		D3A6D98720E05621005383E9 /* TDDTableViewBaseDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6D98220DD4B13005383E9 /* TDDTableViewBaseDataSource.swift */; };
+		D3A6D98820E05725005383E9 /* TDDProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A6D98020DD4AEA005383E9 /* TDDProtocols.swift */; };
 		D3DFF74E1FAE17D400911C75 /* DatabaseOpsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DFF74D1FAE17D400911C75 /* DatabaseOpsManager.swift */; };
 		D3F5A1491FAA4D48003BBF0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F5A1481FAA4D48003BBF0D /* AppDelegate.swift */; };
 		D3F5A14B1FAA4D48003BBF0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F5A14A1FAA4D48003BBF0D /* ViewController.swift */; };
@@ -45,6 +59,20 @@
 		D313399C1FACCC3B00ED0AAA /* NetworkOpsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkOpsManager.swift; sourceTree = "<group>"; };
 		D31339A11FACDBE800ED0AAA /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		D31339A31FAD10B900ED0AAA /* MiscellaneousUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscellaneousUtilities.swift; sourceTree = "<group>"; };
+		D3A6D95E20D675A7005383E9 /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		D3A6D96020D68350005383E9 /* RequestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsTests.swift; sourceTree = "<group>"; };
+		D3A6D96B20D6957B005383E9 /* TBIBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBIBaseViewController.swift; sourceTree = "<group>"; };
+		D3A6D96E20D6AD07005383E9 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
+		D3A6D97020D6D1AB005383E9 /* TBILoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBILoginScreenViewController.swift; sourceTree = "<group>"; };
+		D3A6D97320D6D1F3005383E9 /* TBILoginCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBILoginCredentials.swift; sourceTree = "<group>"; };
+		D3A6D97520D6D4EE005383E9 /* TBILoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBILoginTableViewController.swift; sourceTree = "<group>"; };
+		D3A6D97720D6DBA9005383E9 /* TBIBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBIBaseTableViewCell.swift; sourceTree = "<group>"; };
+		D3A6D97920D6DBD9005383E9 /* TBILoginFullViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBILoginFullViewTableViewCell.swift; sourceTree = "<group>"; };
+		D3A6D97B20D6DCA1005383E9 /* TBILoginPlaceholderViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBILoginPlaceholderViewTableViewCell.swift; sourceTree = "<group>"; };
+		D3A6D98020DD4AEA005383E9 /* TDDProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDProtocols.swift; sourceTree = "<group>"; };
+		D3A6D98220DD4B13005383E9 /* TDDTableViewBaseDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDTableViewBaseDataSource.swift; sourceTree = "<group>"; };
+		D3A6D98320E022EE005383E9 /* DocmentationCommentsHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocmentationCommentsHelp.swift; sourceTree = "<group>"; };
+		D3A6D98520E055EA005383E9 /* TBILoginTableViewControllerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBILoginTableViewControllerDataSource.swift; sourceTree = "<group>"; };
 		D3DFF74D1FAE17D400911C75 /* DatabaseOpsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseOpsManager.swift; sourceTree = "<group>"; };
 		D3F5A1451FAA4D47003BBF0D /* TheBestiOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheBestiOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F5A1481FAA4D48003BBF0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +124,113 @@
 			path = Localization;
 			sourceTree = "<group>";
 		};
+		D3A6D96220D69432005383E9 /* BestProject */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6D98120DD4AFA005383E9 /* DataSources */,
+				D3A6D97220D6D1B0005383E9 /* Models */,
+				D3A6D96D20D69649005383E9 /* StoryBoards */,
+				D3A6D96A20D694A9005383E9 /* Animations */,
+				D3A6D96920D6949B005383E9 /* DBInteractions */,
+				D3A6D96820D69490005383E9 /* NetworkInteractions */,
+				D3A6D96720D6947C005383E9 /* Localization */,
+				D3A6D96620D69474005383E9 /* Constants */,
+				D3A6D96520D6946A005383E9 /* Utilities */,
+				D3A6D96420D69456005383E9 /* Protocols */,
+				D3A6D96320D69444005383E9 /* ViewControllers */,
+				D3A6D98320E022EE005383E9 /* DocmentationCommentsHelp.swift */,
+			);
+			path = BestProject;
+			sourceTree = "<group>";
+		};
+		D3A6D96320D69444005383E9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6D96B20D6957B005383E9 /* TBIBaseViewController.swift */,
+				D3A6D97020D6D1AB005383E9 /* TBILoginScreenViewController.swift */,
+				D3A6D97520D6D4EE005383E9 /* TBILoginTableViewController.swift */,
+				D3A6D98520E055EA005383E9 /* TBILoginTableViewControllerDataSource.swift */,
+				D3A6D97720D6DBA9005383E9 /* TBIBaseTableViewCell.swift */,
+				D3A6D97B20D6DCA1005383E9 /* TBILoginPlaceholderViewTableViewCell.swift */,
+				D3A6D97920D6DBD9005383E9 /* TBILoginFullViewTableViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D3A6D96420D69456005383E9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6D98020DD4AEA005383E9 /* TDDProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D3A6D96520D6946A005383E9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D3A6D96620D69474005383E9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D3A6D96720D6947C005383E9 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		D3A6D96820D69490005383E9 /* NetworkInteractions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkInteractions;
+			sourceTree = "<group>";
+		};
+		D3A6D96920D6949B005383E9 /* DBInteractions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DBInteractions;
+			sourceTree = "<group>";
+		};
+		D3A6D96A20D694A9005383E9 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		D3A6D96D20D69649005383E9 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6D96E20D6AD07005383E9 /* LoginScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		D3A6D97220D6D1B0005383E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6D97320D6D1F3005383E9 /* TBILoginCredentials.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D3A6D98120DD4AFA005383E9 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				D3A6D98220DD4B13005383E9 /* TDDTableViewBaseDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
 		D3F5A13C1FAA4D47003BBF0D = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +256,7 @@
 		D3F5A1471FAA4D47003BBF0D /* TheBestiOSProject */ = {
 			isa = PBXGroup;
 			children = (
+				D3A6D96220D69432005383E9 /* BestProject */,
 				D31339A01FACDBC600ED0AAA /* Localization */,
 				D3F5A1481FAA4D48003BBF0D /* AppDelegate.swift */,
 				D3F5A14A1FAA4D48003BBF0D /* ViewController.swift */,
@@ -132,6 +268,7 @@
 				D313399C1FACCC3B00ED0AAA /* NetworkOpsManager.swift */,
 				D3DFF74D1FAE17D400911C75 /* DatabaseOpsManager.swift */,
 				D31339A31FAD10B900ED0AAA /* MiscellaneousUtilities.swift */,
+				D3A6D95E20D675A7005383E9 /* Requests.swift */,
 			);
 			path = TheBestiOSProject;
 			sourceTree = "<group>";
@@ -141,6 +278,7 @@
 			children = (
 				D3F5A1601FAA4D48003BBF0D /* TheBestiOSProjectTests.swift */,
 				D3F5A1621FAA4D48003BBF0D /* Info.plist */,
+				D3A6D96020D68350005383E9 /* RequestsTests.swift */,
 			);
 			path = TheBestiOSProjectTests;
 			sourceTree = "<group>";
@@ -262,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3F5A1561FAA4D48003BBF0D /* LaunchScreen.storyboard in Resources */,
+				D3A6D96F20D6AD07005383E9 /* LoginScreen.storyboard in Resources */,
 				D31339A21FACDBE800ED0AAA /* Localizable.strings in Resources */,
 				D3F5A1531FAA4D48003BBF0D /* Assets.xcassets in Resources */,
 				D3F5A17A1FAA5C70003BBF0D /* ios-programming-the-big-nerd-ranch-christian-keur(www.ebook-dl.com).pdf in Resources */,
@@ -291,12 +430,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A6D98620E055EA005383E9 /* TBILoginTableViewControllerDataSource.swift in Sources */,
 				D3F5A1511FAA4D48003BBF0D /* TheBestiOSProject.xcdatamodeld in Sources */,
 				D313399D1FACCC3B00ED0AAA /* NetworkOpsManager.swift in Sources */,
+				D3A6D97C20D6DCA1005383E9 /* TBILoginPlaceholderViewTableViewCell.swift in Sources */,
+				D3A6D97420D6D1F3005383E9 /* TBILoginCredentials.swift in Sources */,
 				D31339A41FAD10B900ED0AAA /* MiscellaneousUtilities.swift in Sources */,
+				D3A6D98820E05725005383E9 /* TDDProtocols.swift in Sources */,
+				D3A6D97120D6D1AB005383E9 /* TBILoginScreenViewController.swift in Sources */,
+				D3A6D98420E022EF005383E9 /* DocmentationCommentsHelp.swift in Sources */,
 				D3DFF74E1FAE17D400911C75 /* DatabaseOpsManager.swift in Sources */,
+				D3A6D97820D6DBA9005383E9 /* TBIBaseTableViewCell.swift in Sources */,
 				D3F5A14B1FAA4D48003BBF0D /* ViewController.swift in Sources */,
+				D3A6D95F20D675A7005383E9 /* Requests.swift in Sources */,
+				D3A6D97A20D6DBD9005383E9 /* TBILoginFullViewTableViewCell.swift in Sources */,
+				D3A6D98720E05621005383E9 /* TDDTableViewBaseDataSource.swift in Sources */,
 				D3F5A1491FAA4D48003BBF0D /* AppDelegate.swift in Sources */,
+				D3A6D97620D6D4EE005383E9 /* TBILoginTableViewController.swift in Sources */,
+				D3A6D96C20D6957B005383E9 /* TBIBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3F5A1611FAA4D48003BBF0D /* TheBestiOSProjectTests.swift in Sources */,
+				D3A6D96120D68350005383E9 /* RequestsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
